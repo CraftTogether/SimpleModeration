@@ -1,0 +1,13 @@
+name: SimpleModeration
+version: '${version}'
+main: com.github.crafttoegether.simplemoderation.Plugin
+api-version: 1.18
+authors: [ Marian ]
+description: Adds the ablity to add moderators
+commands:
+  mod:
+    description: Make somebody a moderator
+    usage: /<command>
+  mod-ban:
+    description: Ban a player from the server
+    usage: /<command>
